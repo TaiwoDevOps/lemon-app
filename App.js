@@ -3,13 +3,14 @@ import { View, StyleSheet } from "react-native";
 import LittleLemonHeader from "./components/LittleLemonHeader";
 import LittleLemonFooter from "./components/LittleLemonFooter";
 import WelcomeMessage from "./components/WelcomeMessage";
+import MenuItem from "./components/MenuItem";
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
         <LittleLemonHeader />
-        <WelcomeMessage />
+        <MenuItem />
       </View>
 
       <View style={styles.footerContainer}>
